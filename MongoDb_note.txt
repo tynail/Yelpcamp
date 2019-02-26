@@ -1,0 +1,17 @@
+To run mongoDB:
+./mongod
+
+To use database:
+use dogs
+
+CRUD--------------
+CREATE:
+db.dogs.insert({name:"Rusty", breed:"Mutt"})
+
+READ:
+db.dogs.find()
+db.dogs.find({name:"Rusty"})
+
+UPDATE:
+db.dogs.update({name:"Gladys"}, {$set: {breed:"teckel", isCute:true}})
+

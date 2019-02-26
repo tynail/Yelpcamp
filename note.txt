@@ -1,0 +1,45 @@
+First step: npm init, npm install express ejs --save
+npm install express-sanitizer --save
+
+Create first page with route ----------------------
+Create header/footer partials
+Add bootstrap
+
+Second Step: ----------------------
+Setup new campground POST route
+add body-parser
+Setup route to show form
+Add basic unstyle form
+
+Third step: ----------------------
+Style the campgrounds page
+Add a better header/title
+Make campgrounds display in a grid
+
+Four step: -----------------------
+Add a navbar to all tempplates
+Style the new campgrounds form
+
+RESFUL ROUTES
+name    url             http verb        desc.
+==================================================================================
+INDEX   /dogs           GET         Display a list of all dogs
+NEW     /dogs/new       GET         Display form to make a new dog
+CREATE  /dogs           POST        Add new dog to DB
+SHOW    /dogs/:id       GET         Shows information about one dog
+EDIT    /dogs/:id/edit  GET         Show edit form for one dog
+UPDATE  /dogs/:id       PUT         Update a particular dog, then redirect somewhere
+DESTROY /dogs/:id       DELETE      Delete a particular dog, then redirect somewhere
+
+nested ROUTES
+campground/:id/comment/new
+campground/:id/comment
+
+Git command:
+git init
+git add <file>
+git commit -m "message"
+git log
+git checkout
+
+git push -u origin master
